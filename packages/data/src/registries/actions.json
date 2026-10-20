@@ -1,0 +1,66 @@
+[
+  {
+    "id": "chief.bribe",
+    "label": "Bribe the Chief",
+    "persona": "chief",
+    "apCost": 1,
+    "successFormula": "clamp(20 + trust * 0.6 - suspicion * 0.5 + (offer - greedPrice) / 20000, 5, 95)",
+    "costs": [{ "kind": "cash", "amount": -500000 }],
+    "onSuccess": [
+      { "kind": "heat", "amount": -15 },
+      { "kind": "personaStat", "persona": "chief", "stat": "greed", "amount": 5 },
+      { "kind": "personaStat", "persona": "chief", "stat": "trust", "amount": 3 }
+    ],
+    "onFailure": [
+      { "kind": "heat", "amount": 20 },
+      { "kind": "personaStat", "persona": "chief", "stat": "suspicion", "amount": 15 }
+    ],
+    "ripples": []
+  },
+  {
+    "id": "chief.tipOff",
+    "label": "Tip off the Chief",
+    "persona": "chief",
+    "apCost": 1,
+    "successFormula": "clamp(30 + trust * 0.5 - suspicion * 0.2, 5, 95)",
+    "costs": [],
+    "onSuccess": [
+      { "kind": "personaStat", "persona": "chief", "stat": "trust", "amount": 8 },
+      { "kind": "personaStat", "persona": "vance", "stat": "trust", "amount": -10 }
+    ],
+    "onFailure": [
+      { "kind": "personaStat", "persona": "chief", "stat": "trust", "amount": -25 },
+      { "kind": "heat", "amount": 5 }
+    ],
+    "ripples": []
+  },
+  {
+    "id": "chief.comply",
+    "label": "Comply and fix the violation",
+    "persona": "chief",
+    "apCost": 1,
+    "successFormula": "100",
+    "costs": [{ "kind": "cash", "amount": -500000 }],
+    "onSuccess": [
+      { "kind": "personaStat", "persona": "chief", "stat": "trust", "amount": 5 },
+      { "kind": "heat", "amount": -5 }
+    ],
+    "onFailure": [],
+    "ripples": []
+  },
+  {
+    "id": "chief.helpOut",
+    "label": "Donate to the police fund",
+    "persona": "chief",
+    "apCost": 1,
+    "successFormula": "100",
+    "costs": [{ "kind": "cash", "amount": -300000 }],
+    "onSuccess": [
+      { "kind": "personaStat", "persona": "chief", "stat": "trust", "amount": 10 },
+      { "kind": "personaStat", "persona": "chief", "stat": "suspicion", "amount": -8 },
+      { "kind": "reputation", "amount": 3 }
+    ],
+    "onFailure": [],
+    "ripples": []
+  }
+]

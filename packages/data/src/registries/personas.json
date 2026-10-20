@@ -1,0 +1,50 @@
+[
+  {
+    "id": "chief",
+    "name": "Chief O'Malley",
+    "role": "Chief of Police",
+    "location": "police-station",
+    "trust": 10,
+    "suspicion": 15,
+    "greed": 60,
+    "mood": "neutral",
+    "greedPrice": 500000,
+    "memory": []
+  },
+  {
+    "id": "barnaby",
+    "name": "Barnaby",
+    "role": "Bank Manager",
+    "location": "bank",
+    "trust": 40,
+    "suspicion": 10,
+    "greed": 35,
+    "mood": "neutral",
+    "greedPrice": 250000,
+    "memory": []
+  },
+  {
+    "id": "mayor",
+    "name": "Mayor Hickenlooper",
+    "role": "Mayor and Head of Planning",
+    "location": "town-hall",
+    "trust": 30,
+    "suspicion": 20,
+    "greed": 70,
+    "mood": "neutral",
+    "greedPrice": 750000,
+    "memory": []
+  },
+  {
+    "id": "vance",
+    "name": "Victoria Vance",
+    "role": "Rival Developer",
+    "location": "high-street",
+    "trust": 20,
+    "suspicion": 45,
+    "greed": 80,
+    "mood": "neutral",
+    "greedPrice": 1000000,
+    "memory": []
+  }
+]

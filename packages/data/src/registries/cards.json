@@ -1,0 +1,47 @@
+[
+  {
+    "id": "card.golden-tongue",
+    "name": "Golden Tongue",
+    "description": "+20 to one haggle or bribe.",
+    "uses": 1,
+    "chanceBonus": 20,
+    "appliesTo": ["chief.bribe", "property.haggle"],
+    "effects": []
+  },
+  {
+    "id": "card.ghost-contractor",
+    "name": "Ghost Contractor",
+    "description": "One refurbishment at half price.",
+    "uses": 1,
+    "chanceBonus": 0,
+    "appliesTo": ["property.refurbish"],
+    "effects": []
+  },
+  {
+    "id": "card.inside-info",
+    "name": "Inside Info",
+    "description": "Free inspection of any listing.",
+    "uses": 1,
+    "chanceBonus": 0,
+    "appliesTo": ["property.inspect"],
+    "effects": []
+  },
+  {
+    "id": "card.clean-record",
+    "name": "Clean Record",
+    "description": "Heat -20.",
+    "uses": 1,
+    "chanceBonus": 0,
+    "appliesTo": [],
+    "effects": [{ "kind": "heat", "amount": -20 }]
+  },
+  {
+    "id": "card.fast-track",
+    "name": "Fast Track",
+    "description": "One planning application auto-approved.",
+    "uses": 1,
+    "chanceBonus": 100,
+    "appliesTo": ["mayor.applyPlanning"],
+    "effects": []
+  }
+]

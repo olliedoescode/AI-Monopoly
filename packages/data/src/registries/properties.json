@@ -1,0 +1,128 @@
+[
+  {
+    "id": "prop-retro-house",
+    "plotId": "plot-old-town-01",
+    "address": "14 Alder Lane",
+    "district": "old-town",
+    "type": "house",
+    "aesthetic": "retro",
+    "targetBuyer": "family",
+    "baseValue": 18000000,
+    "condition": 62,
+    "rentPerTurn": 95000,
+    "tenancy": "rented",
+    "refurbishmentLevel": 1,
+    "planningStatus": "none",
+    "flags": {
+      "codeViolation": true,
+      "flagged": false,
+      "underRenovation": false,
+      "underDevelopment": false
+    }
+  },
+  {
+    "id": "prop-slum-flat",
+    "plotId": "plot-industrial-04",
+    "address": "Flat 3, 88 Kiln Row",
+    "district": "industrial",
+    "type": "flat",
+    "aesthetic": "brutalist",
+    "targetBuyer": "young-professional",
+    "baseValue": 7000000,
+    "condition": 28,
+    "rentPerTurn": 42000,
+    "tenancy": "rented",
+    "refurbishmentLevel": 0,
+    "planningStatus": "none",
+    "flags": {
+      "codeViolation": false,
+      "flagged": false,
+      "underRenovation": false,
+      "underDevelopment": false
+    }
+  },
+  {
+    "id": "prop-high-street-townhouse",
+    "plotId": "plot-high-street-02",
+    "address": "2 Crown Terrace",
+    "district": "high-street",
+    "type": "house",
+    "aesthetic": "victorian",
+    "targetBuyer": "retiree",
+    "baseValue": 42000000,
+    "condition": 84,
+    "rentPerTurn": 210000,
+    "tenancy": "leased",
+    "refurbishmentLevel": 3,
+    "planningStatus": "none",
+    "flags": {
+      "codeViolation": false,
+      "flagged": false,
+      "underRenovation": false,
+      "underDevelopment": false
+    }
+  },
+  {
+    "id": "prop-riverside-office",
+    "plotId": "plot-riverside-03",
+    "address": "Unit 7, Weir Business Park",
+    "district": "riverside",
+    "type": "office",
+    "aesthetic": "modern",
+    "targetBuyer": "commercial",
+    "baseValue": 31000000,
+    "condition": 71,
+    "rentPerTurn": 175000,
+    "tenancy": "rented",
+    "refurbishmentLevel": 2,
+    "planningStatus": "none",
+    "flags": {
+      "codeViolation": false,
+      "flagged": false,
+      "underRenovation": false,
+      "underDevelopment": false
+    }
+  },
+  {
+    "id": "prop-old-town-shop",
+    "plotId": "plot-old-town-05",
+    "address": "31 Market Wynd",
+    "district": "old-town",
+    "type": "shop",
+    "aesthetic": "art-deco",
+    "targetBuyer": "commercial",
+    "baseValue": 15500000,
+    "condition": 55,
+    "rentPerTurn": 88000,
+    "tenancy": "vacant",
+    "refurbishmentLevel": 1,
+    "planningStatus": "none",
+    "flags": {
+      "codeViolation": false,
+      "flagged": false,
+      "underRenovation": false,
+      "underDevelopment": false
+    }
+  },
+  {
+    "id": "prop-riverside-land",
+    "plotId": "plot-riverside-09",
+    "address": "Plot 9, Mill Race Field",
+    "district": "riverside",
+    "type": "land",
+    "aesthetic": "rustic",
+    "targetBuyer": "family",
+    "baseValue": 9500000,
+    "condition": 100,
+    "rentPerTurn": 0,
+    "tenancy": "vacant",
+    "refurbishmentLevel": 0,
+    "planningStatus": "none",
+    "flags": {
+      "codeViolation": false,
+      "flagged": false,
+      "underRenovation": false,
+      "underDevelopment": false
+    }
+  }
+]

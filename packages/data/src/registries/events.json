@@ -1,0 +1,30 @@
+[
+  {
+    "id": "event.market-shift",
+    "name": "Market Shift",
+    "description": "Buyers are circling. Property values drift upward this month.",
+    "weight": 3,
+    "effects": []
+  },
+  {
+    "id": "event.crime-wave",
+    "name": "Crime Wave",
+    "description": "Break-ins across town. Heat rises and tenants get nervous.",
+    "weight": 2,
+    "effects": [{ "kind": "heat", "amount": 5 }]
+  },
+  {
+    "id": "event.interest-rate-rise",
+    "name": "Interest Rate Rise",
+    "description": "The bank tightens its belt. Loan payments go up.",
+    "weight": 2,
+    "effects": []
+  },
+  {
+    "id": "event.quiet-month",
+    "name": "A Quiet Month",
+    "description": "Nothing much happens. Enjoy it.",
+    "weight": 4,
+    "effects": []
+  }
+]

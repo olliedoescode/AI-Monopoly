@@ -1,0 +1,22 @@
+{
+  "name": "@ai-monopoly/engine",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit",
+    "sim": "tsx src/sim/cli.ts"
+  },
+  "dependencies": {
+    "@ai-monopoly/data": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.1"
+  }
+}
